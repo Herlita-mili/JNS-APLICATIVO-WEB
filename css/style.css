@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #092a49;
+    color: #03101c;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -25,7 +25,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #092a49;
+    color: #060606;
     outline: none;
     text-decoration: none;
 }
@@ -60,7 +60,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #092a49;
+    background: #04192c;
 }
 
 .back-to-top:hover i {

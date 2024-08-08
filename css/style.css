@@ -959,6 +959,15 @@ a:focus {
     margin: 0;
 }
 
+.justified-text {
+    text-align: justify;
+}
+
+.icon-color {
+    color: #0587e4; /* Color celeste */
+}
+
+
 .testimonial .owl-nav {
     position: relative;
     width: 100%;
@@ -1018,6 +1027,61 @@ a:focus {
 .testimonial .owl-nav .owl-next:hover::after {
     background: #092a49;
 }
+
+
+
+.about {
+    padding: 50px 0;
+}
+
+.about-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-img {
+    width: 150px; /* Tamaño del círculo */
+    height: 150px; /* Tamaño del círculo */
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+}
+
+.about-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-item p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
 
 
 /*******************************/
